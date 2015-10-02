@@ -4,6 +4,10 @@
 
 <ul>
   {{#each model as |question|}}
-    <li>{{#link-to 'question' question.id}}{{question.shortQuestion}}{{/link-to}} From: {{question.username}}</li>
+    {{question-tile question=question}}
   {{/each}}
 </ul>
+
+<hr>
+
+{{new-question save="save"}}
