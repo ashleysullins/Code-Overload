@@ -3,29 +3,29 @@
     <form>
       <div class="form-group">
         <label for="username">Username</label>
-          {{input value=username id="username"}}
+          {{input value=username id="username" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="Email">Email</label>
-          {{input value=email id="email"}}
+          {{input value=email id="email" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="topic">Topic</label>
-          {{input value=topic id="topic"}}
+          {{input value=topic id="topic" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="shortQuestion">One sentence summary</label>
-          {{input value=shortQuestion id="shortQuestion"}}
+          {{input value=shortQuestion id="shortQuestion"  class="form-control"}}
       </div>
 
       <div class="form-group">
         <p><label for="longQuestion">Details</label></p>
-          {{textarea rows=5 cols="80" value=longQuestion id="longQuestion"}}
+          {{textarea class="form-control" rows=5 cols="80" value=longQuestion id="longQuestion"}}
       </div>
 
-      <button {{action 'save'}}>Save</button>
+      <button {{action 'save'}} class="btn btn-success">Save</button>
     </form>
   </div>
