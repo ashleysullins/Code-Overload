@@ -1,14 +1,14 @@
 {"questions": [{
-  "username": "Bob",
+  "username": "Stormsilver",
   "email": "bob@theawesome.com",
   "topic": "Ember probs",
-  "short-question": "How do you get rid of the divs that ember adds when showing the data in each model?",
-  "long-question": "I am trying to add a table to the data that is in my model but for each piece of data, Ember is adding it's own div class. How do I get rid of that div class?"
+  "shortQuestion": "How do you get rid of the divs that ember adds when showing the data in each model?",
+  "longQuestion": "I am trying to add a table to the data that is in my model but for each piece of data, Ember is adding it's own div class. How do I get rid of that div class?"
   }, {
-  "username": "Andrew",
+  "username": "Drusepth",
   "email": "andrew@thecoolest.com",
   "topic": "Ember probs",
-  "short-question": "How can I get my glyphicons to show up when using Ember?",
-  "long-question": "When I add a glyphicon to my nav bar in ember, it does not show up in the UI. When I check the CSS, everything appears to be correct. Any ideas?"
+  "shortQuestion": "How can I get my glyphicons to show up when using Ember?",
+  "longQuestion": "When I add a glyphicon to my nav bar in ember, it does not show up in the UI. When I check the CSS, everything appears to be correct. Any ideas?"
   }]
 }

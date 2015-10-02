@@ -1,3 +1,9 @@
 <h1>Welcome to code overload!</h1>
 
-<p>Feel free to browse through our questions:</p>
+<p>Finally, a question and answer site for n00bs. Browse through the questions below and click on it to see the detailed question and answers. If you don't see your question, you can add one to the list. </p>
+
+<ul>
+  {{#each model as |question|}}
+    <li>{{#link-to 'question' question.id}}{{question.shortQuestion}}{{/link-to}} From: {{question.username}}</li>
+  {{/each}}
+</ul>
