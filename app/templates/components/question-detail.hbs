@@ -5,3 +5,14 @@
 <h6>Topic: {{question.topic}}</h6>
 <hr>
 {{update-question question=question update="update"}}
+<hr>
+<h3>Answers</h3>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-detail update="update" answer=answer}}
+  {{/each}}
+</ul>
+
+<hr>
+
+{{add-answer saveAnswer="saveAnswer" question=question}}
