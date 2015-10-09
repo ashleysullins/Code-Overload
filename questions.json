@@ -1,11 +1,11 @@
 {"questions": [{
-  "username": "Stormsilver",
+  "username": "SS",
   "email": "bob@theawesome.com",
   "topic": "Ember probs",
   "shortQuestion": "How do you get rid of the divs that ember adds when showing the data in each model?",
   "longQuestion": "I am trying to add a table to the data that is in my model but for each piece of data, Ember is adding it's own div class. How do I get rid of that div class?"
   }, {
-  "username": "Drusepth",
+  "username": "Dracular",
   "email": "andrew@thecoolest.com",
   "topic": "Ember probs",
   "shortQuestion": "How can I get my glyphicons to show up when using Ember?",

@@ -4,27 +4,27 @@
       <form>
         <div class="form-group">
           <label for="username">Username</label>
-            {{input value=username id="username"}}
+            {{input value=question.username id="username"}}
         </div>
 
         <div class="form-group">
           <label for="Email">Email</label>
-            {{input value=email id="email"}}
+            {{input value=question.email id="email"}}
         </div>
 
         <div class="form-group">
           <label for="topic">Topic</label>
-            {{input value=topic id="topic"}}
+            {{input value=question.topic id="topic"}}
         </div>
 
         <div class="form-group">
           <label for="shortQuestion">One sentence summary</label>
-            {{input value=shortQuestion id="shortQuestion"}}
+            {{input value=question.shortQuestion id="shortQuestion"}}
         </div>
 
         <div class="form-group">
           <p><label for="longQuestion">Details</label></p>
-            {{textarea rows=5 cols="80" value=longQuestion id="longQuestion"}}
+            {{textarea rows=5 cols="80" value=question.longQuestion id="longQuestion"}}
         </div>
 
         <button {{action 'update' question}} class="btn btn-success">Save</button>
